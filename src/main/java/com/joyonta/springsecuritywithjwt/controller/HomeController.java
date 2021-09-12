@@ -26,7 +26,7 @@ public class HomeController {
     @Autowired
     private UserService userService;
 
-    @GetMapping(value = "/")
+    @GetMapping(value = "/home")
     public String home() {
         return "Welcome To Spring Security With JWT";
     }
